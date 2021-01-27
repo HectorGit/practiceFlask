@@ -7,7 +7,7 @@ from flask import render_template #what other flask things do we need ?
 def index():
     return "Hello, World!" #here usually we would return some sort of a template, and possibly pass it some data if necessary 
 
-@app.route('/simple_test')
+@app.route('/index')
 def simple_test():
     users = [{'username':'Hector'}, {'username':'Sergio'}]
-    return render_template('simple_test.html', users=users)
+    return render_template('index.html', users=users, title='Home')
