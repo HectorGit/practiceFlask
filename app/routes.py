@@ -17,10 +17,10 @@ API_URL = app.config['API_ROUTE']
 def index():
     return "Hello, World!" #here usually we would return some sort of a template, and possibly pass it some data if necessary 
 
-@app.route('/index')
+@app.route('/simple_text')
 def simple_test():
     users = [{'username':'Hector'}, {'username':'Sergio'}]
-    return render_template('index.html', users=users, title='Home')
+    return render_template('simple_test.html', users=users, title='Home')
 
 @app.route('/friend')
 def friend():
