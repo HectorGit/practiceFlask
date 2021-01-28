@@ -15,7 +15,7 @@ API_URL = app.config['API_ROUTE']
 
 @app.route('/')
 def index():
-    return "Hello, World!" #here usually we would return some sort of a template, and possibly pass it some data if necessary 
+    return render_template('index.html') #here usually we would return some sort of a template, and possibly pass it some data if necessary 
 
 @app.route('/simple_text')
 def simple_test():
