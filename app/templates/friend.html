@@ -1,0 +1,18 @@
+{% extends "base.html" %}
+
+{% block content %}
+    {% if friend %}
+
+        {% for friend in friend %}
+
+            <h1> FRIEND </h1>
+            <h1> {{friend.first_name}}</h1>
+            <h1> {{friend.last_name}}</h1>
+            <h1> {{friend.age}}</h1>
+            <h1> {{friend.added}}</h1>
+
+        {% endfor %}
+
+    {% endif %}
+{% endblock %}
+   
