@@ -1,7 +1,16 @@
 {% extends "base.html" %}
 
+{% block stylesheet %}
+
+    {% assets "index_css"%}
+        <link rel="stylesheet" href="{{ ASSET_URL }}" />
+    {% endassets %}
+
+{% endblock stylesheet %}
+
 {% block content %}
     <p>I will be testing that we can get a bg image with text / a form on top here</p>
+
     <!-- <div>
         <div class="jumbotron jumbotron-fluid parrallax" id='banner-image'>
             <div class="container" id="title-container">
@@ -74,4 +83,10 @@
 {% endblock %}
    
 {% block scripts %}
+
+{% assets "index_js" %}
+    <script src="{{ ASSET_URL }}"></script>  
+    <!-- API_URL='{{ API_ROUTE }}' user_id="{{ current_user.id }}" footer='{{ footer }}'></script> -->
+{% endassets %}
+
 {% endblock % }
