@@ -7,3 +7,5 @@ configparser==5.0.1
 flask-bootstrap==3.3.7.1
 requests==2.25.1
 Flask-Assets==0.12
+cssmin==0.2.0
+jsmin==2.2.2
