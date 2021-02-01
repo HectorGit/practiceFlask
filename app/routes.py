@@ -8,7 +8,7 @@ import json #why is this not in the requirements.txt file ???
 
 # ------------------------------- GLOBAL VARIABLES --------------------------
 
-API_URL = app.config['API_ROUTE']
+# API_URL = app.config['API_ROUTE']
 
 # ------------------------------- GLOBAL VARIABLES --------------------------
 
@@ -17,44 +17,36 @@ API_URL = app.config['API_ROUTE']
 def index():
     return render_template('index.html') #here usually we would return some sort of a template, and possibly pass it some data if necessary 
 
-@app.route('/simple_text')
+@app.route('/simple_test')
 def simple_test():
     users = [{'username':'Hector'}, {'username':'Sergio'}]
     return render_template('simple_test.html', users=users, title='Home')
 
-@app.route('/friend')
-def friend():
-    #in the flask app we have an api_handlers.py file, where this is streamlined, but at this moment i just want to try if i can make it work just like this ... 
-    url = API_URL + '/read_friend' #not sure if this is the route that actually exists ? 
-    # we can make another endpoint in the api 
-    data = {
-        'first_name': 'jordie'
-    }
-    r = requests.get(url, data=data)
-    friend = r.json() #not sure if this would work
-    if r.status_code == 200:
-        #flash(r.json()['message'], 'success')
-        print('was able to retrieve friend from API')
-        print(friend) #expect to print form in json ...
-    else:
-        #flash(r.json()['message'], 'danger')
-        print('unable to retrieve friend from API')
-        print('r: ', r)
-    return render_template('friend.html', friend = friend)
+# @app.route('/friend')
+# def friend():
+#     url = API_URL + '/read_friend'
+#     data = {
+#         'first_name': 'jordie'
+#     }
+#     r = requests.get(url, data=data)
+#     friend = r.json() 
+#     if r.status_code == 200:
+#         print('was able to retrieve friend from API')
+#         print(friend) 
+#     else:
+#         print('unable to retrieve friend from API')
+#         print('r: ', r)
+#     return render_template('friend.html', friend = friend)
 
-@app.route('/friends')
-def friends():
-    #in the flask app we have an api_handlers.py file, where this is streamlined, but at this moment i just want to try if i can make it work just like this ... 
-    url = API_URL + '/read_all_friends' #not sure if this is the route that actually exists ? 
-    # we can make another endpoint in the api 
-    r = requests.get(url)
-    friends = r.json() #not sure if this would work
-    if r.status_code == 200:
-        #flash(r.json()['message'], 'success')
-        print('was able to retrieve friend from API')
-        print(friends) #expect to print form in json ...
-    else:
-        #flash(r.json()['message'], 'danger')
-        print('unable to retrieve friend from API')
-        print('r: ', r)
-    return render_template('friends.html', friends = friends)
+# @app.route('/friends')
+# def friends():
+#     url = API_URL + '/read_all_friends' 
+#     r = requests.get(url)
+#     friends = r.json() 
+#     if r.status_code == 200:
+#         print('was able to retrieve friend from API')
+#         print(friends) 
+#     else:
+#         print('unable to retrieve friend from API')
+#         print('r: ', r)
+#     return render_template('friends.html', friends = friends)

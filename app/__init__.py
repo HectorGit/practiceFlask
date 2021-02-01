@@ -1,4 +1,5 @@
-from flask import Flask #, flash, redirect, url_for, session, request
+# from flask import Flask #, flash, redirect, url_for, session, request
+from flask import Flask, flash, redirect, url_for, session, request
 from config import Config
 
 from flask_bootstrap import Bootstrap
