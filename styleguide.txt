@@ -1,0 +1,30 @@
+
+
+(DARK)
+
+h1 - Montserrat Semi Bold, #FFFFFF,  16 pt
+body1 - Montserrat Light, #FFFFFF, 16 pt
+body2 - Montserrat Light, #FFFFFF, 14 pt
+button - Montserrat Light, #FFFFFF , 12 pt
+
+---
+
+(LIGHT)
+
+title - Arial, Bold, -0.5 kerning, #FFC547, 55 pt
+h1 - Arial, Bold, -0.5 Kerning, #FFC547, 35 pt
+h2 - Montserrat Bold, -0.5 Kerning, #_____, 20 pt
+body - Monstserrat Light, #____, 16 pt
+
+---
+
+COLORS (HEX)
+
+YELLOW     FFC547
+ORANGE     F7931E
+GREEN      D93021
+BLACK      1F3040
+DARK BLUE  124F88
+LIGHT BLUE 29ABE2
+GREY       F2F2F2
+DARK GREY  8B9298
