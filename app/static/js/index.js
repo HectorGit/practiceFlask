@@ -2,7 +2,7 @@
 
 $(document).ready(function () {   
 
-    console.log('document ready , javascript connected')
+    console.log('index JS, document ready , javascript connected')
 
 });
 

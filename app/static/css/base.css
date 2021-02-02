@@ -1,0 +1,28 @@
+#temporary_navbar
+{
+    align-content: center;
+    text-align: center;
+    background-color: #fff;
+}
+
+#temporary_navbar a
+{
+    color:#1F3040;
+    font-family: Arial;
+    font-weight: bold;
+    /* font-kerning: -0.5; */
+    font-size: 16pt;
+    text-decoration: none;
+    padding-left:30px; 
+    padding-right:30px; 
+}
+
+#search_bar 
+{
+    background-color: #FFC547;
+}
+
+#search_bar p
+{
+    display: inline;
+}

@@ -3,8 +3,8 @@
 (DARK)
 
 h1 - Montserrat Semi Bold, #FFFFFF,  16 pt
-body1 - Montserrat Light, #FFFFFF, 16 pt
-body2 - Montserrat Light, #FFFFFF, 14 pt
+body1 (p .body1) - Montserrat Light, #FFFFFF, 16 pt
+body2 (p .body2)- Montserrat Light, #FFFFFF, 14 pt
 button - Montserrat Light, #FFFFFF , 12 pt
 
 ---
@@ -13,6 +13,10 @@ button - Montserrat Light, #FFFFFF , 12 pt
 
 title - Arial, Bold, -0.5 kerning, #FFC547, 55 pt
 h1 - Arial, Bold, -0.5 Kerning, #FFC547, 35 pt
+
+*h2 - Arial, Bold, -0.5 Kerning, #FFC547, 25 pt
+*h3 - Arial, Bold, -0.5 Kerning, #FFC547, 15 pt
+
 h2 - Montserrat Bold, -0.5 Kerning, #_____, 20 pt
 body - Monstserrat Light, #____, 16 pt
 

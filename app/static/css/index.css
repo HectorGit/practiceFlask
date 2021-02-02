@@ -1,34 +1,65 @@
-
-/*will this affect anything  ? */ 
-/* a{
-    text-decoration: underline;
-    color : aqua;
-} */
-
-/* a:hover {
-    text-decoration: none;
-} */
-
-/* #banner-image {
-    color: white;
-    max-width: 100%;
-    background-image: url("/static/img/Ergo-updated-bannerimg.jpg");
-    position: relative;
-    z-index: 25;
-} */
-
-/* 
-.parrallax {
-    background-position: center;
+#solaires_splash
+{
+    background-image: url("/static/img/index/bannerImg1_sunlight.jpg");
+    align-content: center;
+    text-align: center;
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size:cover;
+    background-position: center;
+    /* object-fit: scale-down; */
+    /* object-fit: cover; */
+
 }
 
-.btn-orange {
-    padding: 15px 30px;
+/*-------------LIGHT STYLES-------------------*/
+/*
+title - Arial, Bold, -0.5 kerning, #FFC547, 55 pt
+h1 - Arial, Bold, -0.5 Kerning, #FFC547, 35 pt
+
+*h2 - Arial, Bold, -0.5 Kerning, #FFC547, 25 pt
+*h3 - Arial, Bold, -0.5 Kerning, #FFC547, 15 pt
+
+h2 (not currently used!) - Montserrat Bold, -0.5 Kerning, #___FFFFFF__, 20 pt
+body (p) - Monstserrat Light, #___FFFFFF_, 16 pt
+*/
+
+.light h1{
+    font-family: Arial;
+    font-weight: bold;
+    /* font-kerning: -0.5; */
+    color:#FFC547;
+    font-size: 35pt;
 }
 
-#title-container {
-    margin-top: 18vh; 
-    margin-bottom: auto;
-} */
+.light h2{
+    font-family: Arial;
+    font-weight: bold;
+    /* font-kerning: -0.5; */
+    color:#FFC547;
+    font-size: 25pt;
+}
+
+.light h3{
+    font-family: Arial;
+    font-weight: bold;
+    /* font-kerning: -0.5; */
+    color:#FFC547;
+    font-size: 16pt;
+}
+
+.light p{
+    font-family: Arial;
+    font-weight: bold;
+    /* font-kerning: -0.5; */
+    color:#FFFFFF;
+    font-size: 16pt;
+}
+
+
+/*--------------DARK STYLES-------------------*/
+/*
+h1 - Montserrat Semi Bold, #FFFFFF,  16 pt
+body1 (p .body1) - Montserrat Light, #FFFFFF, 16 pt
+body2 (p .body2)- Montserrat Light, #FFFFFF, 14 pt
+button - Montserrat Light, #FFFFFF , 12 pt
+*/
