@@ -1,3 +1,5 @@
+/* ------------ SECTIONS ------------------------- */
+
 #solaires_splash
 {
     background-image: url("/static/img/index/bannerImg1_sunlight.jpg");
@@ -11,6 +13,12 @@
 
 }
 
+#solaires_mission
+{
+    align-content: center;
+    text-align: center;
+}
+
 /*-------------LIGHT STYLES-------------------*/
 /*
 title - Arial, Bold, -0.5 kerning, #FFC547, 55 pt
@@ -22,6 +30,14 @@ h1 - Arial, Bold, -0.5 Kerning, #FFC547, 35 pt
 h2 (not currently used!) - Montserrat Bold, -0.5 Kerning, #___FFFFFF__, 20 pt
 body (p) - Monstserrat Light, #___FFFFFF_, 16 pt
 */
+
+.light .title{
+    font-family: Arial;
+    font-weight: bold;
+    /* font-kerning: -0.5; */
+    color:#FFC547;
+    font-size: 55pt;
+}
 
 .light h1{
     font-family: Arial;
@@ -47,11 +63,38 @@ body (p) - Monstserrat Light, #___FFFFFF_, 16 pt
     font-size: 16pt;
 }
 
-.light p{
-    font-family: Arial;
-    font-weight: bold;
+.light h4{
+    font-family: 'Montserrat';
+    font-weight: 500;
+    /* font-weight: ; */
     /* font-kerning: -0.5; */
-    color:#FFFFFF;
+    color:#FFF;
+    font-size: 16pt;
+}
+
+.light p{
+    font-family: 'Montserrat';
+    font-weight: 300;
+    /* font-weight: ; */
+    /* font-kerning: -0.5; */
+    color:#5a5a5a;
+    font-size: 16pt;
+}
+
+.light .bolded{
+    font-family: 'Montserrat';
+    font-weight: 500;
+    /* font-weight: ; */
+    /* font-kerning: -0.5; */
+    color:#5a5a5a;
+    font-size: 20pt;
+}
+
+/*using strong or b instead ?*/
+.light .smallbolded{
+    font-family: 'Montserrat';
+    font-weight: 500;
+    color:#5a5a5a;
     font-size: 16pt;
 }
 
@@ -63,3 +106,12 @@ body1 (p .body1) - Montserrat Light, #FFFFFF, 16 pt
 body2 (p .body2)- Montserrat Light, #FFFFFF, 14 pt
 button - Montserrat Light, #FFFFFF , 12 pt
 */
+
+/*------------- ELEMENTS --------------------*/
+
+/*IN BASE.CSS */
+/* .btn-yellow-rounded
+{
+    border-radius: 25px;
+    background-color: #FFC547; 
+} */
