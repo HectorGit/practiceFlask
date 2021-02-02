@@ -31,6 +31,15 @@
     padding-bottom: 100px;
 }
 
+#partnerships_slider
+{
+    align-content: center;
+    /* justify-content: center; */
+    /* text-align: center; */
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
 /*-------------LIGHT STYLES-------------------*/
 /*
 title - Arial, Bold, -0.5 kerning, #FFC547, 55 pt
