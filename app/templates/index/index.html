@@ -1,0 +1,25 @@
+{% extends "base.html" %}
+
+{% block stylesheet %}
+
+    {% assets "index_css"%}
+        <link rel="stylesheet" href="{{ ASSET_URL }}" />
+    {% endassets %}
+
+{% endblock stylesheet %}
+
+{% block content %}
+
+    <h1>AFFECTED</h1>
+    <a href='#'>GOOGLE</a>
+    <img src="../../static/img/Ergo-updated-bannerimg.jpg" class="img-fluid" alt="Smart Sit-And-Stand Desk and Smart Under-The-Desk Bike">
+
+{% endblock content %}
+   
+{% block scripts %}
+
+{% assets "index_js" %}
+    <script type="text/javascript" src="{{ ASSET_URL }}"></script>  
+{% endassets %}
+
+{% endblock scripts %}

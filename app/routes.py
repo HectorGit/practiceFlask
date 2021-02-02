@@ -14,13 +14,14 @@ import json #why is this not in the requirements.txt file ???
 
 
 @app.route('/')
+@app.route('/index')
 def index():
-    return render_template('index.html') #here usually we would return some sort of a template, and possibly pass it some data if necessary 
+    return render_template('index/index.html') #here usually we would return some sort of a template, and possibly pass it some data if necessary 
 
 @app.route('/simple_test')
 def simple_test():
     users = [{'username':'Hector'}, {'username':'Sergio'}]
-    return render_template('simple_test.html', users=users, title='Home')
+    return render_template('other/simple_test.html', users=users, title='Home')
 
 # @app.route('/friend')
 # def friend():
@@ -36,7 +37,7 @@ def simple_test():
 #     else:
 #         print('unable to retrieve friend from API')
 #         print('r: ', r)
-#     return render_template('friend.html', friend = friend)
+#     return render_template('other/friend.html', friend = friend)
 
 # @app.route('/friends')
 # def friends():
@@ -49,4 +50,4 @@ def simple_test():
 #     else:
 #         print('unable to retrieve friend from API')
 #         print('r: ', r)
-#     return render_template('friends.html', friends = friends)
+#     return render_template('other/friends.html', friends = friends)

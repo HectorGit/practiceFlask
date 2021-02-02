@@ -6,9 +6,9 @@ $(document).ready(function () {
 
 });
 
-$("#mc-embedded-subscribe-form").on("submit", function (event) {  
-    console.log('clicked subscribe button') 
-    event.preventDefault();
+// $("#mc-embedded-subscribe-form").on("submit", function (event) {  
+//     console.log('clicked subscribe button') 
+//     event.preventDefault();
 //     var form = document.getElementById('mc-embedded-subscribe-form')
 //     $.ajax({
 //         type: 'POST',
@@ -24,4 +24,4 @@ $("#mc-embedded-subscribe-form").on("submit", function (event) {
 //             return console.log(error)
 //         }
 //     })
-})
+// })
