@@ -128,6 +128,40 @@ body2 (p .body2)- Montserrat Light, #FFFFFF, 14 pt
 button - Montserrat Light, #FFFFFF , 12 pt
 */
 
+.dark h1
+{
+    font-family: 'Montserrat';
+    font-weight: 500;
+    color:#FFF;
+    font-size: 16pt;
+}
+
+.dark .body1
+{
+    font-family: 'Montserrat';
+    font-weight: 300;
+    color:#FFF;
+    font-size: 16pt;
+}
+
+.dark .body2
+{
+    font-family: 'Montserrat';
+    font-weight: 300;
+    color:#FFF;
+    font-size: 14pt;
+}
+
+.dark .btn-dark
+{
+    border-radius: 15px;
+    background-color: #FFF; 
+    color:#000;
+    font-family: 'Montserrat';
+    font-size: 16pt;
+    font-weight: 300;
+}
+
 /*------------- ELEMENTS --------------------*/
 
 /*IN BASE.CSS */
