@@ -13,6 +13,11 @@ bundles = {
         filters='cssmin',
         output='gen/base/base.css'),
 
+    'bars_css': Bundle(
+        'css/bars.css',
+        filters='cssmin',
+        output='gen/base/bars.css'),
+
     'index_js': Bundle(
         'js/index.js',
         filters='jsmin',

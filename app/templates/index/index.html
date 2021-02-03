@@ -20,22 +20,28 @@
     <!--hmm bootstrap container doesn't work here -->
     <div id = "solaires_splash" class="light">
 
-        <img src="../../static/img/index/logoAndName.png" class="img-fluid" alt="Solaires Logo and Name">
+        <img src="../../static/img/index/logoAndName.png" class="img-fluid mb-3" alt="Solaires Logo and Name">
 
-        <h2>INNOVATIVE SOLAR CELL TECHNOLOGY</h2>
+        <h2 class="mt-3 mb-3">INNOVATIVE SOLAR CELL TECHNOLOGY</h2>
 
-        <h4>We are in business for a cleaner world</h4>
+        <h4 class="mt-3 mb-3">We are in business for a cleaner world</h4>
 
         <!-- form will probably go here, its more complicated though, so we may skip it for now -->
 
-        <h3>INTERESTED IN PRODUCT AVAILABILITY ?</h3>
+        <h3 class="mt-3 mb-3">INTERESTED IN PRODUCT AVAILABILITY ?</h3>
         <!-- some form input , type text ? -->
+        <input type="text" class="mt-3 mb-3" id="email_subscription_1" name="EMAIL" type="email" placeholder="Your Email"></input>
+        <br>
+        <button type="button" class="btn btn-yellow-rounded mt-3 mb-3">Join Our Team</button>
+
         <!-- some form button , type submit ? (will require styling with rounded corners) -->
 
-        <h4>Subscribe to stay updated on our solar cell technology.</h4>
+        <h4 class="mt-3 mb-3">Subscribe to stay updated on our solar cell technology.</h4>
 
         <!-- some fontawesome icon to show an arrow pointing down -->
         <!-- ignoring chatbot -->
+
+        <a href="#" class="mt-3 mb-3"><i class="fas fa-angle-double-down fa-2x"></i></a>
 
     </div>
 
@@ -98,8 +104,8 @@
                     continents. He has a BSc. in International Trade.
                 </p>
 
-                <!--ICON from Fontawesome -->
-                <p><b>fabian@solaires.net</b></p> <!--may need to bold this somehow-->
+                <a class="d-inline" href="mailto:fabian@solaires.net"><i class="fas fa-envelope-open-text"></i></a>
+                <p class="d-inline"><b>fabian@solaires.net</b></p> <!--may need to bold this somehow-->
 
             </div>
         </div>
@@ -217,52 +223,6 @@
                 <a href = "#"><h3> > Read More</h3></a>
             </div>
             <!-- <div class="col-1"> <h1> > </h1> </div> -->
-        </div>
-    </div>
-
-    <!-- this probably will have to go in its own footer.html file and then be included here -->
-
-    <div id = "footer" class="container dark">
-        <div class = "row">
-            <div class = "col-3">
-                <img src = "../../static/img/index/logo.png" class="img-fluid" width="50%" alt="Solaires Logo">
-                <p class = "body1"> Stay up to date with the latest from Solaires:</p>
-                <!-- Email address form -->
-                <input type="text"></input>
-                <button type="button" class="btn btn-dark">Contact Us</button>
-            </div>
-            <div class = "col-3">
-                <h1>LINKS</h1>
-                <ul>
-                    <li> <a href="#">About Us</a></li>
-                    <li> <a href="#">Technology</a></li>
-                    <li> <a href="#">Applications</a></li>
-                    <li> <a href="#">Our Blog</a></li>
-                    <li> <a href="#">Join Us</a></li>
-                    <li> <a href="#">Contact Us</a></li>
-                </ul>
-            </div>
-            <div class = "col-3">
-                <h1>CONTACT</h1>
-                <ul>
-                    <li> <a href="#">solar-ventures.com</a></li>
-                    <li> <a href="#">contact@solar-ventures.com</a></li>
-                    <li> <a href="#">+1 (888) 464-2532</a></li>
-                </ul>
-                <hr>
-                <a href="#">LinkedIn</a>
-            </div>
-            <div class = "col-3">
-                <h1>LOCATION</h1>
-                <p>300-1095 Mackenzie Ave <Br>
-                Victoria, BC
-                V8P 2L5, CA
-                </p>
-                <img src = "../../static/img/index/mock_map.png" class="img-fluid" width="100%" alt="Location">
-            </div>
-        </div>
-        <div id = "copyright" class ="row">
-            <h1>Copyright (C) Solaires Enterprises Inc. | All Rights Reserved</h1>
         </div>
     </div>
 

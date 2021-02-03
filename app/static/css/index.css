@@ -14,6 +14,12 @@
     padding-bottom: 100px;
 }
 
+/* #solaires_splash input
+{
+    margin-top: 20px;
+    margin-bottom: 20px;
+} */
+
 #solaires_mission
 {
     align-content: center;
@@ -83,24 +89,6 @@
     padding-bottom: 100px;
 }
 
-#footer
-{
-    background-color: #124F88;
-    align-content: center;
-    /* text-align: center; */
-    padding-top: 50px;
-    /* padding-bottom: 50px;  */
-}
-
-#copyright
-{
-    align-content: center;
-    text-align: center;
-    background-color: #FFC547;
-    /* padding-top: 50px; */
-    /* padding-bottom: 100px; */
-}
-
 /*-------------LIGHT STYLES-------------------*/
 /*
 title - Arial, Bold, -0.5 kerning, #FFC547, 55 pt
@@ -113,10 +101,9 @@ h2 (not currently used!) - Montserrat Bold, -0.5 Kerning, #___FFFFFF__, 20 pt
 body (p) - Monstserrat Light, #___FFFFFF_, 16 pt
 */
 
-.light .title{
+/* .light .title{
     font-family: Arial;
     font-weight: bold;
-    /* font-kerning: -0.5; */
     color:#FFC547;
     font-size: 55pt;
 }
@@ -124,7 +111,6 @@ body (p) - Monstserrat Light, #___FFFFFF_, 16 pt
 .light h1{
     font-family: Arial;
     font-weight: bold;
-    /* font-kerning: -0.5; */
     color:#FFC547;
     font-size: 35pt;
 }
@@ -132,7 +118,6 @@ body (p) - Monstserrat Light, #___FFFFFF_, 16 pt
 .light h2{
     font-family: Arial;
     font-weight: bold;
-    /* font-kerning: -0.5; */
     color:#FFC547;
     font-size: 25pt;
 }
@@ -140,7 +125,6 @@ body (p) - Monstserrat Light, #___FFFFFF_, 16 pt
 .light h3{
     font-family: Arial;
     font-weight: bold;
-    /* font-kerning: -0.5; */
     color:#FFC547;
     font-size: 16pt;
 }
@@ -148,8 +132,6 @@ body (p) - Monstserrat Light, #___FFFFFF_, 16 pt
 .light h4{
     font-family: 'Montserrat';
     font-weight: 500;
-    /* font-weight: ; */
-    /* font-kerning: -0.5; */
     color:#FFF;
     font-size: 16pt;
 }
@@ -157,8 +139,6 @@ body (p) - Monstserrat Light, #___FFFFFF_, 16 pt
 .light p{
     font-family: 'Montserrat';
     font-weight: 300;
-    /* font-weight: ; */
-    /* font-kerning: -0.5; */
     color:#5a5a5a;
     font-size: 16pt;
 }
@@ -166,13 +146,10 @@ body (p) - Monstserrat Light, #___FFFFFF_, 16 pt
 .light .bolded{
     font-family: 'Montserrat';
     font-weight: 500;
-    /* font-weight: ; */
-    /* font-kerning: -0.5; */
     color:#5a5a5a;
     font-size: 20pt;
 }
 
-/*using strong or b instead ?*/
 .light .smallbolded{
     font-family: 'Montserrat';
     font-weight: 500;
@@ -185,10 +162,9 @@ body (p) - Monstserrat Light, #___FFFFFF_, 16 pt
     text-decoration: none;
     font-family: 'Montserrat';
     font-weight: 500;
-    /* font-kerning: -0.5; */
     color:#FFC547;
     font-size: 16pt;
-}
+} */
 
 /*--------------DARK STYLES-------------------*/
 /*
@@ -198,7 +174,7 @@ body2 (p .body2)- Montserrat Light, #FFFFFF, 14 pt
 button - Montserrat Light, #FFFFFF , 12 pt
 */
 
-.dark h1
+/* .dark h1
 {
     font-family: 'Montserrat';
     font-weight: 500;
@@ -249,7 +225,7 @@ button - Montserrat Light, #FFFFFF , 12 pt
 {
     text-decoration: none;
     color:#FFF
-}
+} */
 
 /*------------- ELEMENTS --------------------*/
 
