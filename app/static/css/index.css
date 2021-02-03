@@ -40,6 +40,67 @@
     padding-bottom: 100px;
 }
 
+#solaires_technology
+{
+    background-color: #F2F2F2;
+    align-content: center;
+    text-align: center;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+#solaires_technology .card
+{
+    border-radius: 40px;
+}
+#solaires_technology .card-img-top {
+    height: 300px;
+    /* max-height: 100%; */
+    /* max-width: 100%;  */
+    border-radius: 40px;
+    object-fit: scale-down;
+}
+
+#solaires_technology .white_block
+{
+    background-color: #FFF;
+}
+
+#contact_us
+{
+    background-color: #FFF;
+    align-content: center;
+    text-align: center;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+#news_feed
+{
+    background-color: #FFF;
+    align-content: center;
+    /* text-align: center; */
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+#footer
+{
+    background-color: #124F88;
+    align-content: center;
+    /* text-align: center; */
+    padding-top: 50px;
+    /* padding-bottom: 50px;  */
+}
+
+#copyright
+{
+    align-content: center;
+    text-align: center;
+    background-color: #FFC547;
+    /* padding-top: 50px; */
+    /* padding-bottom: 100px; */
+}
+
 /*-------------LIGHT STYLES-------------------*/
 /*
 title - Arial, Bold, -0.5 kerning, #FFC547, 55 pt
@@ -119,6 +180,15 @@ body (p) - Monstserrat Light, #___FFFFFF_, 16 pt
     font-size: 16pt;
 }
 
+.light a
+{
+    text-decoration: none;
+    font-family: 'Montserrat';
+    font-weight: 500;
+    /* font-kerning: -0.5; */
+    color:#FFC547;
+    font-size: 16pt;
+}
 
 /*--------------DARK STYLES-------------------*/
 /*
@@ -152,14 +222,33 @@ button - Montserrat Light, #FFFFFF , 12 pt
     font-size: 14pt;
 }
 
+.dark p
+{
+    font-family: 'Montserrat';
+    font-weight: 300;
+    color:#FFF;
+    font-size: 14pt;
+}
+
 .dark .btn-dark
 {
-    border-radius: 15px;
-    background-color: #FFF; 
-    color:#000;
+    border-radius: 0px;
+    background-color: #FFC547; 
+    color:#FFF;
     font-family: 'Montserrat';
     font-size: 16pt;
     font-weight: 300;
+}
+
+.dark ul
+{
+    list-style: none;
+}
+
+.dark a
+{
+    text-decoration: none;
+    color:#FFF
 }
 
 /*------------- ELEMENTS --------------------*/
@@ -170,3 +259,4 @@ button - Montserrat Light, #FFFFFF , 12 pt
     border-radius: 25px;
     background-color: #FFC547; 
 } */
+

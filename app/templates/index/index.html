@@ -83,7 +83,7 @@
             <div id ="middle" class = "col-1">|</div> <!--need vertical separator image ...?-->
             <div id = "right" class="col-6">
                 <!-- will need to implement this selector thingy !!!-->
-                <p>. . . . < ></p>
+                <h1>. . . . < ></h1>
                 <p class = "smallbolded">Alfonso Fabian De La Fuente</p>
                 <h4>CEO</h4>
 
@@ -105,11 +105,25 @@
         </div>
     </div>
 
-    <div id = "partnerships_slider" class = "containter light">
+    <div id = "partnerships_slider" class = "container light">
         <div class = "row">
 
             <div class = "col-6">
-                left
+
+                <p class = "bolded"> OUR PARTNERSHIPS :</p>
+
+                <h1>THE UNIVERSITY OF VICTORIA</h1>
+
+                <p>Partnership and joint research with the <br>
+                Chemistry Department and Centre for <br>
+                Advanced Materials and Related Technology<br>
+                (CAMTEC) </p>
+
+                <button type="button" class="btn btn-yellow-rounded">Learn More</button>
+
+                <!-- related to the slider -->
+                <h1 class="d-flex justify-content-end"> < > </h1>
+
             </div>
 
             <div class = "col-1">
@@ -117,12 +131,140 @@
             </div>
 
             <div class = "col-5">
-                right
+                <img src = "../../static/img/index/uvic_screenshot.jpg">
+                <h1>. . . .</h1>
             </div>
 
         </div>
     </div>
 
+    <div id = "solaires_technology" class = "container light">
+        <div class = "row">
+            <h1>OUR TECHNOLOGY</h1>
+            <p>From the little things to the bigger picture.</p>
+            <hr> <!-- need a horizontal line here-->
+        </div>
+        <div class = "row">
+            <div class = "col-6" >
+                <!--need to make this into a card, and round the corners !-->
+                <div class="card" >
+                    <img class="card-img-top" src="../../static/img/index/solar_cells.jpg" alt="solar_cells">
+                    <div class="card-body">
+                      <p class="card-title bolded">SOLAR CELLS</p>
+                      <p class="card-text">
+                          How do we do it ? <a href="#" ><h3>Click to learn more.</h3></a>
+                      </p>
+                      <!-- <a href="#" class="btn btn-primary">Go somewhere</a> -->
+                    </div>
+                </div>
+            </div>
+            <div class = "col-6" >
+                <!--need to make this into a card, and round the corners !-->
+                <div class="card" >
+                    <img class="card-img-top" src="../../static/img/index/solar_ink.png" alt="solar_ink">
+                    <div class="card-body">
+                      <p class="card-title bolded">SOLAR INK</p>
+                      <p class="card-text">
+                          What is it ? <a href="#" ><h3>Click to learn more.</h3></a>
+                      </p>
+                      <!-- <a href="#" class="btn btn-primary">Go somewhere</a> -->
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class ="row">
+            <hr>
+            <!--need to make all text stay within square and add black border-->
+            <p class ="white_block">
+                Interested in our products ? 
+                Learn more about the <a href='#'><h3>potential applications.</h3></a>
+            </p>
+        </div>
+    </div>
+
+    <div id = "contact_us" class = "container col-6 light">
+        <h1>LET'S WORK TOGETHER</h1>
+        <p>Contact us to learn how we can partner up in powering<br>
+             the world with clean energy</p>
+        <button type="button" class="btn btn-yellow-rounded">Contact Us</button>
+        <hr>
+    </div>
+
+    <!--there may be a widget for this ? a carousel or so ? -->
+    <div id = "news_feed" class = "container light">
+        <div class="row">
+
+            <!-- <div class="col-1"> <h1> < </h1> </div> -->
+            <div class="col-4">
+                <img src="../../static/img/index/pending_image.jpg">
+                <p class="bolded">RESEARCH</p>
+                <p>Lorem ipsum dolor sit amet, <Br>
+                consectetur adipiscing elit</p>
+                <a href = "#"><h3> > Read More</h3></a>
+            </div>
+            <div class="col-4">
+                <img src="../../static/img/index/pending_image.jpg">
+                <p class="bolded">BLOG POST</p>
+                <p>Lorem ipsum dolor sit amet, <Br>
+                consectetur adipiscing elit</p>
+                <a href = "#"><h3> > Read More</h3></a>
+            </div>
+            <div class="col-4">
+                <img src="../../static/img/index/pending_image.jpg">
+                <p class="bolded">PRESS RELEASE</p>
+                <p>Lorem ipsum dolor sit amet, <Br>
+                consectetur adipiscing elit</p>
+                <a href = "#"><h3> > Read More</h3></a>
+            </div>
+            <!-- <div class="col-1"> <h1> > </h1> </div> -->
+        </div>
+    </div>
+
+    <!-- this probably will have to go in its own footer.html file and then be included here -->
+
+    <div id = "footer" class="container dark">
+        <div class = "row">
+            <div class = "col-3">
+                <img src = "../../static/img/index/logo.png" class="img-fluid" width="50%" alt="Solaires Logo">
+                <p class = "body1"> Stay up to date with the latest from Solaires:</p>
+                <!-- Email address form -->
+                <input type="text"></input>
+                <button type="button" class="btn btn-dark">Contact Us</button>
+            </div>
+            <div class = "col-3">
+                <h1>LINKS</h1>
+                <ul>
+                    <li> <a href="#">About Us</a></li>
+                    <li> <a href="#">Technology</a></li>
+                    <li> <a href="#">Applications</a></li>
+                    <li> <a href="#">Our Blog</a></li>
+                    <li> <a href="#">Join Us</a></li>
+                    <li> <a href="#">Contact Us</a></li>
+                </ul>
+            </div>
+            <div class = "col-3">
+                <h1>CONTACT</h1>
+                <ul>
+                    <li> <a href="#">solar-ventures.com</a></li>
+                    <li> <a href="#">contact@solar-ventures.com</a></li>
+                    <li> <a href="#">+1 (888) 464-2532</a></li>
+                </ul>
+                <hr>
+                <a href="#">LinkedIn</a>
+            </div>
+            <div class = "col-3">
+                <h1>LOCATION</h1>
+                <p>300-1095 Mackenzie Ave <Br>
+                Victoria, BC
+                V8P 2L5, CA
+                </p>
+                <img src = "../../static/img/index/mock_map.png" class="img-fluid" width="100%" alt="Location">
+            </div>
+        </div>
+        <div id = "copyright" class ="row">
+            <h1>Copyright (C) Solaires Enterprises Inc. | All Rights Reserved</h1>
+        </div>
+    </div>
 
 {% endblock content %}
    
