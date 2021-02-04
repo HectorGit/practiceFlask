@@ -38,6 +38,13 @@
     padding-bottom: 100px;
 }
 
+/* #solaires_mission .decorations
+{
+    background-image: url("/static/img/index/network_yellow_background.png");
+    background-repeat: no-repeat;
+    background-size:cover;
+} */
+
 #team_slider
 {
     align-content: center;
@@ -49,6 +56,11 @@
     opacity:0.1 */
 }
 
+#team_slider i
+{
+    color:#FFC547
+}
+
 #partnerships_slider
 {
     align-content: center;
@@ -56,6 +68,11 @@
     /* text-align: center; */
     padding-top: 100px;
     padding-bottom: 100px;
+}
+
+#partnerships_slider i
+{
+    color:#FFC547
 }
 
 #solaires_technology
