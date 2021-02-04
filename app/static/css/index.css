@@ -118,6 +118,10 @@
     padding-bottom: 100px;
 }
 
+#news_feed i
+{
+    color:#FFC547
+}
 /*-------------LIGHT STYLES-------------------*/
 /*
 title - Arial, Bold, -0.5 kerning, #FFC547, 55 pt

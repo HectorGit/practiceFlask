@@ -62,6 +62,26 @@ $(document).ready(function () {
         team_slider_right.goTo('prev');
     })
 
+     /* NEWS FEED SLIDER  */
+
+     var news_feed_slider = tns({
+        container:'#news_feed_slider',
+        items: 3,
+        controls: false,
+        nav: false 
+    })
+
+    $('#news_feed_next_button').click(function () {
+        console.log("news feed next button");
+        news_feed_slider.goTo('next');
+    })
+    
+    $('#news_feed_prev_button').click (function () {
+        console.log("news feed prev button");
+        news_feed_slider.goTo('prev');
+    })
+
+
 });
 
 
