@@ -1,7 +1,23 @@
-#firstdiv
+#selection_buttons
 {
     align-content: center;
     text-align: center;
     padding-top: 100px;
-    padding-bottom: 100px;
+    /* padding-bottom: 100px; */
+}
+
+#top
+{
+    align-content: center;
+    text-align: center;
+    padding-top: 100px;
+    /*padding-bottom: 100px;*/
+}
+
+#bottom
+{
+    align-content: center;
+    text-align: justify;
+    padding-top: 100px;
+    /* padding-bottom: 100px; */
 }

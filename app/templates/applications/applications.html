@@ -10,13 +10,94 @@
 
 {% block content %}
 
-    <!-- change name of this div later on -->
-    <div id ="firstdiv" class = "container light">
-        <div class = "row">
-            <p>THIS IS APPLICATIONS PAGE</p>
+    <div id = "selection_buttons" class = "container">
+        <div class = "btn-group"> 
+
+            <button id = "pv_blinds_button" type="button" class="btn btn-blue-rounded mx-2">Photovoltaic Blinds</button>
+            <button id = "pv_tiles_button" type="button" class="btn btn-blue-rounded mx-2">Photovoltaic Tiles</button>
+            <button id = "pv_windows_button" type="button" class="btn btn-blue-rounded mx-2">Photovoltaic Windows</button>
+
         </div>
     </div>
 
+    <div id = "top" class = "container light">
+
+        <!-- <div class ="row">
+
+        </div> -->
+        <h1 class ="title">Potential Applications</h1>
+        <hr>
+    </div>
+
+    <div id ="bottom" class = "container light">
+
+
+        
+            <div id = "applications_slider">
+
+                <div>
+
+                    <div class ="row">
+
+                        <div class = "col-3">
+                            <!--FIX THIS-->
+                            <!-- IMAGE NEEDS CROPPING AND ROUND CORNERS-->
+                            <img src="../../static/img/applications/tempimage.png" height="50%" width ="auto">
+                        </div>
+            
+                        <div class = "col-9">
+                            <p class = "smallbolded">PHOTOVOLTAIC BLINDS</p>
+                            <p class = "text">We use technology that ...</p>
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <div>
+
+                    <div class ="row">
+
+                        <div class = "col-3">
+                            <!--FIX THIS-->
+                            <!-- IMAGE NEEDS CROPPING AND ROUND CORNERS-->
+                            <img src="../../static/img/applications/tempimage.png" height="50%" width ="auto">
+                        </div>
+            
+                        <div class = "col-9">
+                            <p class = "smallbolded">PHOTOVOLTAIC TILES</p>
+                            <p class = "text">We use technology that ...</p>
+                        </div>
+
+                    </div>
+                </div>
+
+                <div>
+
+                    <div class ="row">
+
+
+                        <div class = "col-3">
+                            <!--FIX THIS-->
+                            <!-- IMAGE NEEDS CROPPING AND ROUND CORNERS-->
+                            <img src="../../static/img/applications/tempimage.png" height="50%" width ="auto">
+                        </div>
+            
+                        <div class = "col-9">
+                            <p class = "smallbolded">PHOTOVOLTAIC WINDOWS</p>
+                            <p class = "text">We use technology that ...</p>
+                        </div>
+
+                    </div>
+
+                </div>                
+
+
+            </div>
+
+        </div> <!-- div class row = 12 cols -->
+
+    </div>
 
 {% endblock content %}
    
