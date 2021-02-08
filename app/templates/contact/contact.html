@@ -10,10 +10,49 @@
 
 {% block content %}
 
+    <div  id="top" class = "container light">
+        <h1 class = "title">Contact Us</h1>
+        <hr>
+    </div>
+
     <!-- change name of this div later on -->
-    <div id ="firstdiv" class = "container light">
+    <div id ="form_and_info" class = "container light">
         <div class = "row">
-            <p>THIS IS CONTACT PAGE</p>
+            
+            <div class = "col-6">
+                <!-- is a 'form' tag needed ?! -->
+
+                <input type = "text" placeholder="First Name" name = "fname"  size="32"> 
+                <input type = "text" placeholder="Last Name" name = "fname"  size="32"> 
+
+                <input type="subject" placeholder ="Subject" value="" name="subject" id="subject">
+                <input type="email" placeholder ="Email Address" value="" name="email" id="email">
+                <input type="text" placeholder ="Message" value="" name="email" id="email">
+
+                <!-- may need to implement recaptcha ?! -->
+
+                <button type="submit" class="btn btn-yellow-rounded mt-3 mb-3">Submit</button>
+
+
+            </div>
+
+            <div class = "col-6">
+
+                <!-- replace image, either with embedded map or high quality image-->
+                <img src="../../static/img/contact/map_screenshot.png">
+
+                <p>300-1095 Mackenzie Avenue</p>
+                <p>Victoria British Columbia</p>
+                <p>V8P 2L5 , Canada</p>
+
+                <p>Please feel free to (...)</p>
+
+                <a href=#><a href="mailto:contact@solaries.com"><i class="fas fa-envelope"> contact@solaires.com</i></a>
+                <br>
+                <a href="#"><i class="fas fa-phone"></i> +1 (888) 464-2532</a>
+
+            </div>
+
         </div>
     </div>
 

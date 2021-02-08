@@ -1,4 +1,12 @@
-#firstdiv
+#top
+{
+    align-content: center;
+    text-align: center;
+    padding-top: 100px;
+    /* padding-bottom: 100px; */
+}
+
+#form_and_info
 {
     align-content: center;
     text-align: center;
