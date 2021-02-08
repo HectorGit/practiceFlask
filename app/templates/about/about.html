@@ -1,0 +1,91 @@
+{% extends "base.html" %}
+
+{% block stylesheet %}
+
+    {% assets "about_css" %}
+        <link rel="stylesheet" href="{{ ASSET_URL }}" />
+    {% endassets %}
+
+{% endblock stylesheet %}
+
+{% block content %}
+
+    <div class = "container light about_title"> 
+        <h1 class ="title">About Us</h1>
+
+        <HR>
+    </div>
+
+    <div id ="about_us" class = "container light">
+        <div class = "row">
+
+            <p class = "smallbolded">Our Social Purpose</p>
+            <p class = "text">Earth is headed towards a (...)</p>
+
+            <!-- replace with correct image -->
+            <img src="../../static/img/index/logoAndName.png" class="img-fluid mb-3" alt="Solaires Logo and Name">
+
+            <p class = "text">Furthermore, about 64% of costs associated (...)</p>
+
+        </div>
+    </div>
+
+    <div id ="the_team" class = "container light">
+        <div class = "row">
+            <p class = "smallbolded">The team</p>
+        </div>
+        <div class = "row">
+
+            <!-- is there a way to leave space between elements ?-->
+            <div class = "col-sm-4 bordered_box">
+                <h1>23</h1>
+                <h3>TEAM MEMBERS</h3>
+            </div>
+
+            <!-- is there a way to leave space between elements ?-->
+            <div class = "col-sm-4 bordered_box">
+                <h1>8+</h1>
+                <h3>NATIONALITIES</h3>
+            </div>
+
+            <!-- is there a way to leave space between elements ?-->
+            <div class = "col-sm-4 bordered_box">
+                <h1>1</h1>
+                <h3>GOAL</h3>
+            </div>
+
+        </div>
+    </div>
+
+    <div class = "container light about_title">
+        <!-- this needs to get centered ... so i made its own div, but i don't love it -->
+        <p class ="bolded"> LET'S WORK ON THIS MISSION TOGETHER !</p>
+    </div>
+
+    <div id ="button_area" class = "container light">
+        <div class = "row">
+
+            
+
+            <!-- <button type="button" class="btn btn-yellow-rounded">Contact Us</button> -->
+
+
+            <!-- is there a way of making this button smaller -->
+
+            <button type="submit" class="btn btn-yellow-rounded mt-3 mb-3 btn-block">Join Our Team</button>
+            <!-- <button type="button" class="btn btn-yellow-rounded mt-3 mb-3 btn-block">Join Our Team</button> -->
+
+        </div>
+    </div>
+
+
+
+{% endblock content %}
+   
+{% block scripts %}
+
+{% assets "about_js" %}
+    <script type="text/javascript" src="{{ ASSET_URL }}"></script>  
+{% endassets %}
+
+{% endblock scripts %}

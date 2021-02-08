@@ -18,10 +18,34 @@ import json #why is this not in the requirements.txt file ???
 def index():
     return render_template('index/index.html') #here usually we would return some sort of a template, and possibly pass it some data if necessary 
 
-@app.route('/simple_test')
-def simple_test():
-    users = [{'username':'Hector'}, {'username':'Sergio'}]
-    return render_template('other/simple_test.html', users=users, title='Home')
+@app.route('/about')
+def about():
+    return render_template('about/about.html')
+
+@app.route('/applications')
+def applications():
+    return render_template('applications/applications.html')
+
+@app.route('/blog')
+def blog():
+    return render_template('blog/blog.html')
+
+@app.route('/contact')
+def contact():
+    return render_template('contact/contact.html')
+
+@app.route('/join')
+def join():
+    return render_template('join/join.html')
+
+@app.route('/technology')
+def technology():
+    return render_template('technology/technology.html')
+
+# @app.route('/simple_test')
+# def simple_test():
+#     users = [{'username':'Hector'}, {'username':'Sergio'}]
+#     return render_template('other/simple_test.html', users=users, title='Home')
 
 # @app.route('/friend')
 # def friend():

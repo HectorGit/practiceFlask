@@ -4,6 +4,7 @@
 
 */
 
+/*NEED TO MAKE A NICE WAY TO STYLE WHEN VISITOR IS ON A CERTAIN PAGE... */
 #header_navbar
 {
     align-content: center;
@@ -23,6 +24,17 @@
     padding-right:30px; 
     height : 100px; /*is there a better way ? */
 }
+
+/*THIS MAY BE HELPFUL TO HIGHLIGHT WHERE THE USER IS CURRENTLY 
+MUST APPEND CLASS 'CURRENT' */
+#header_navbar .current
+{
+    text-decoration: underline;
+    /* color: hotpink;
+    background-color: lightgreen; */
+    font-weight: bold;
+}
+
 
 #search_bar 
 {

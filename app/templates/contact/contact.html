@@ -1,0 +1,29 @@
+{% extends "base.html" %}
+
+{% block stylesheet %}
+
+    {% assets "contact_css" %}
+        <link rel="stylesheet" href="{{ ASSET_URL }}" />
+    {% endassets %}
+
+{% endblock stylesheet %}
+
+{% block content %}
+
+    <!-- change name of this div later on -->
+    <div id ="firstdiv" class = "container light">
+        <div class = "row">
+            <p>THIS IS CONTACT PAGE</p>
+        </div>
+    </div>
+
+
+{% endblock content %}
+   
+{% block scripts %}
+
+{% assets "contact_js" %}
+    <script type="text/javascript" src="{{ ASSET_URL }}"></script>  
+{% endassets %}
+
+{% endblock scripts %}
