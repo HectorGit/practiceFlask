@@ -12,6 +12,17 @@
     font-weight: 300;
 }
 
+.btn-blue-rounded
+{
+    border-radius: 15px;
+    background-color: #124F88; 
+    color:#fff;
+    font-family: 'Montserrat';
+    font-size: 16pt;
+    font-weight: 300;
+}
+
+
 /*--------------DARK STYLES-------------------*/
 /*
 h1 - Montserrat Semi Bold, #FFFFFF,  16 pt

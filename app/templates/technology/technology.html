@@ -10,11 +10,65 @@
 
 {% block content %}
 
-    <!-- change name of this div later on -->
-    <div id ="firstdiv" class = "container light">
-        <div class = "row">
-            <p>THIS IS TECHNOLOGY PAGE</p>
+
+    <div id = "selection_buttons" class = "container dark">
+        <div class = "btn-group"> 
+
+            <button id = "solar_ink_button" type="button" class="btn btn-blue-rounded mx-2">Solar Ink</button>
+            <button id = "solar_cells_button" type="button" class="btn btn-blue-rounded mx-2">Solar Cells</button>
+
         </div>
+    </div>
+
+    <div id = "top" class = "container light">
+
+        <!-- <div class ="row">
+
+        </div> -->
+        <h1 class ="title">Our Technology</h1>
+        <hr>
+    </div>
+
+    <!-- change name of this div later on -->
+    <div id ="bottom" class = "container light">
+
+        <div class ="row">
+
+        
+            <div id = "technology_slider">
+
+                <div>
+
+                    <div class = "col-3">
+                        <!--FIX THIS-->
+                        <!-- IMAGE NEEDS CROPPING AND ROUND CORNERS-->
+                        <img src="../../static/img/technology/solar_ink.png" height="10%" width ="auto">
+                    </div>
+        
+                    <div class = "col-9">
+                        <p class = "smallbolded">Solar Ink</p>
+                        <p class = "text">We use technology that ...</p>
+                    </div>
+                </div>
+
+                <div>
+
+                    <div class = "col-3">
+                        <!--FIX THIS-->
+                        <!-- IMAGE NEEDS CROPPING AND ROUND CORNERS-->
+                        <img src="../../static/img/technology/solar_cells.jpg" height="10%" width ="auto">
+                    </div>
+        
+                    <div class = "col-9">
+                        <p class = "smallbolded">Solar Cells</p>
+                        <p class = "text">We use technology that ...</p>
+                    </div>
+                </div>
+
+            </div>
+
+        </div> <!-- div class row = 12 cols -->
+
     </div>
 
 
