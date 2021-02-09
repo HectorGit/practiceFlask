@@ -6,10 +6,15 @@
     /* padding-bottom: 100px; */
 }
 
-#post_chooser
+#bottom
 {
-    /* align-content: center; */
+    align-content: center;
     text-align: justify;
-    /* padding-top: 100px; */
+    padding-top: 100px;
     padding-bottom: 100px;
+}
+
+#bottom ul
+{
+    list-style: none;
 }

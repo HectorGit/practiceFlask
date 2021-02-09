@@ -104,6 +104,16 @@ body (p) - Monstserrat Light, #___FFFFFF_, 16 pt
     font-size: 55pt;
 }
 
+/*this is weird, but needed for some places on the website*/
+.light .blueheader{
+    font-family: 'Montserrat';
+    font-weight: 500;
+    /* font-weight: ; */
+    /* font-kerning: -0.5; */
+    color:#124F88;
+    font-size: 16pt;
+}
+
 .light h1{
     font-family: Arial;
     font-weight: bold;

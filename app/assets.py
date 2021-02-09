@@ -78,6 +78,17 @@ bundles = {
         filters='cssmin',
         output='gen/join/join.css'),
 
+    'positions_js': Bundle(
+        'js/positions.js',
+        filters='jsmin',
+        output='gen/positions/positions.js'),
+
+    'positions_css': Bundle(
+        'css/positions.css',
+        filters='cssmin',
+        output='gen/positions/positions.css'),
+
+
     'technology_js': Bundle(
         'js/technology.js',
         filters='jsmin',

@@ -11,10 +11,55 @@
 {% block content %}
 
     <!-- change name of this div later on -->
-    <div id ="firstdiv" class = "container light">
+    <!-- <div id ="firstdiv" class = "container light">
         <div class = "row">
             <p>THIS IS JOIN PAGE</p>
         </div>
+    </div> -->
+
+    <div id = "top" class = "container light">
+        <h1 class = "title"> Join Us </h1>
+        <hr>
+        <p class = "text">
+            Are you interested in helping us create the future of clean energy?
+            See our available positions below, and feel free to send us your resume or LinkedIn profile!
+        </p>
+
+        <!-- is this a button ? why is this necessary ? ? ?-->
+
+        <button type="submit" class="btn btn-blue-rounded mt-3 mb-3 w-25"> Victoria, BC, Canada </button>
+        
+        <hr>
+
+    </div>
+
+    <div id = "listings" class = "container light">
+
+        {% for position in positions %}
+
+        <!-- not sure how to make the card rounded exterior, but can do that later -->
+
+        <div class = "row card my-3">
+
+            <div class = "col-8">
+                 <!-- card-body"> -->
+
+                <h3 class = "blueheader">{{ position.positionName }}</h3>
+                <p><i>Date Added : {{position.dateAdded }}</i></p>
+
+            </div>
+            <div class = "col-4">
+                 <!-- card-body"> -->
+
+                <!-- onclick should be done differently ? -->
+                <button type="submit" onclick="window.location.href='/positions/{{position.descriptionUrl}}'" class="btn btn-yellow-rounded w-50"> View This Role </button>
+
+            </div>
+
+        </div>
+
+        {% endfor %}
+
     </div>
 
 

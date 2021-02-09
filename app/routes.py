@@ -36,7 +36,63 @@ def contact():
 
 @app.route('/join')
 def join():
-    return render_template('join/join.html')
+
+    #SOME DATA MAY BE GOOD TO HAVE IN A JSON FILE OR SO TO GENERATE THIS PAGE ...
+    #Hardcoding this for now... 
+    #Not sure how we will actually link to the desired description
+    positions = [
+
+        { 
+            "positionName" : "Materials Science Engineer - Full Time",
+            "dateAdded" : "03/02/2021",
+            "descriptionUrl" : "example" 
+        },
+        { 
+            "positionName" : "Electronics Engineer - Full Time",
+            "dateAdded" : "03/02/2021",
+            "descriptionUrl" : "example" 
+        },
+        { 
+            "positionName" : "Chemist - Full Time",
+            "dateAdded" : "03/02/2021",
+            "descriptionUrl" : "example" 
+        },
+        { 
+            "positionName" : "Physicist - Full Time",
+            "dateAdded" : "03/02/2021",
+            "descriptionUrl" : "example" 
+        },
+        { 
+            "positionName" : "Business Analyst - Full Time",
+            "dateAdded" : "03/02/2021",
+            "descriptionUrl" : "example" 
+        }
+
+    ]
+
+    return render_template('join/join.html', positions = positions)
+
+#how does this really work ?
+@app.route('/positions/<position_name>')
+def position(position_name):
+
+    # we have a couple choices, either we dynamically fill the data on a SINGLE template...
+    #the problem is there would be a lot of text here, being passed to the template later. 
+
+    # or we can have multiple templates each with the info already there,
+    # and we just conditionally render the correct one ...
+
+    # both are viable... but I prefer the second idea for now ... 
+    print('about to render: ', position_name)
+
+    if(position_name == "example"):
+        print('position name was \'example\'')
+        return render_template('join/positions/example_position.html')
+    else:
+        print('position name was not found')
+        return render_template('join/positions/example_position.html')
+
+
 
 @app.route('/technology')
 def technology():

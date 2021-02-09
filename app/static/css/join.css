@@ -1,7 +1,15 @@
-#firstdiv
+#top
 {
     align-content: center;
     text-align: center;
+    padding-top: 100px;
+    /* padding-bottom: 100px; */
+}
+
+#listings
+{
+    /* align-content: center;
+    text-align: justify; */
     padding-top: 100px;
     padding-bottom: 100px;
 }

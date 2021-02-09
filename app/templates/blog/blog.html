@@ -11,10 +11,31 @@
 {% block content %}
 
     <!-- change name of this div later on -->
-    <div id ="firstdiv" class = "container light">
+    <div id ="top" class = "container light">
+        <h1 class = "title">Our Blog</h1>
+        <hr>
+    </div>
+
+    <div id = "post_chooser" class ="container light">
+
         <div class = "row">
-            <p>THIS IS BLOG PAGE</p>
+            <div class = "col-3">
+                <!-- how does the bootstrap accordion work ? -->
+                <p>ACCORDION PLACEHOLDER</p>
+            </div>
+
+            <div class = "col-9">
+
+                <!-- include of an html file -->
+                <!-- not sure how we can make this conditional... ? -->
+
+                {% block post %}
+                    {% include 'blog/blog_posts/blog_example.html' %}
+                {% endblock post %}
+
+            </div>
         </div>
+
     </div>
 
 

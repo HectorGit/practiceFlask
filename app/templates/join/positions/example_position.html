@@ -1,0 +1,60 @@
+{% extends "base.html" %}
+
+{% block stylesheet %}
+
+    {% assets "positions_css" %}
+        <link rel="stylesheet" href="{{ ASSET_URL }}" />
+    {% endassets %}
+
+{% endblock stylesheet %}
+
+{% block content %}
+
+    <div id = "top" class = "container light">
+
+        <h1 class ="title">ELECTRONICS ENGINEER</h1>
+        <p>Added 03/02/2021 | Full-Time | Victoria, BC, Canada</p>
+    </div>
+
+    <div id = "bottom" class = "container light">
+        <p class = "bolded">DESCRIPTION</p>
+
+        <ul>
+            <li><p>Plan and evaluate (...)</p></li>
+            <li><p>Prepare proposals (...)</p></li>
+            <li><p>Supervise the work of (...)</p></li>
+            <li><p>Design and direct the testing of (...)</p></li>
+            <li><p>Plan and evaluate (...)</p></li>
+            <li><p>Prepare proposals (...)</p></li>
+            <li><p>Supervise the work of (...)</p></li>
+            <li><p>Design and direct the testing of (...)</p></li>
+        </ul>
+
+        <p class = "bolded">REQUIREMENTS</p>
+        <p class = "text">
+
+            MSC or PHD, 2+ Years of Experience
+
+        </p>
+        <p class = "bolded">TEAM CULTURE</p>
+        <p class = "text">
+
+            We are a multicultural team of enthusiastic (...)
+
+        </p>
+
+        <!-- how to do this do a mailto OR what should it do -->
+        <!-- SHOULD we have a form on the website to auto send an email w/ interested candidate info?-->
+        <button type="submit" class="btn btn-yellow-rounded w-50"> Apply for this job </button>
+
+    </div>
+
+{% endblock content %}
+   
+{% block scripts %}
+
+{% assets "positions_js" %}
+    <script type="text/javascript" src="{{ ASSET_URL }}"></script>  
+{% endassets %}
+
+{% endblock scripts %}
